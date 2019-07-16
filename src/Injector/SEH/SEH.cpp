@@ -1,3 +1,6 @@
+// This is a personal academic project. Dear PVS-Studio, please check it.
+// PVS-Studio Static Code Analyzer for C, C++ and C#: http://www.viva64.com
+
 #include "SEH.hpp"
 #include "..\\StringMacro.hpp"
 #include "..\\AutoCleanup.hpp"
@@ -10,6 +13,8 @@
 #include <vector>
 /// [url] http://en.cppreference.com/w/cpp/header/string [/url]
 #include <string>
+
+#pragma comment(lib, "dbghelp")
 
 long __stdcall generic_unhandled_exception(EXCEPTION_POINTERS* exception)
 {
@@ -32,7 +37,7 @@ long __stdcall generic_unhandled_exception(EXCEPTION_POINTERS* exception)
 	minidump.ExceptionPointers = exception;
 	minidump.ClientPointers    = TRUE;
 
-	MiniDumpWriteDump(GetCurrentProcess(), GetCurrentProcessId(), hFile, (MINIDUMP_TYPE)(MiniDumpWithFullMemory | MiniDumpWithHandleData), &minidump, NULL, NULL);
+	MiniDumpWriteDump(GetCurrentProcess(), GetCurrentProcessId(), hFile, static_cast<MINIDUMP_TYPE>(MiniDumpWithFullMemory | MiniDumpWithHandleData), &minidump, NULL, NULL);
 
 	return EXCEPTION_EXECUTE_HANDLER;
 }

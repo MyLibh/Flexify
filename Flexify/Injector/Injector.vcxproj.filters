@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SEH">
+      <UniqueIdentifier>{dcf3f64b-a22b-4e71-b4cf-6ccb7aadfa01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SEH">
+      <UniqueIdentifier>{c5b198de-304b-413f-9a1a-0741562da53e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Injector\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Injector\Injector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Injector\SEH\seh_guard.cpp">
+      <Filter>Source Files\SEH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Injector\SEH\seh_exception.cpp">
+      <Filter>Source Files\SEH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Injector\SEH\SEH.cpp">
+      <Filter>Source Files\SEH</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Injector\Injector.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Injector\StringMacro.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Injector\AutoCleanup.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Injector\StringUtil.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Injector\SEH\seh_guard.hpp">
+      <Filter>Header Files\SEH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Injector\SEH\SEH.hpp">
+      <Filter>Header Files\SEH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Injector\SEH\seh_exception.hpp">
+      <Filter>Header Files\SEH</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

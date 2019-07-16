@@ -6,7 +6,7 @@
 /// Created:			15.07.2019
 ///
 /// Last modified by:	MyLibh
-/// Last modified on:	15.07.2019
+/// Last modified on:	16.07.2019
 ///====================================================================================================================================
 /// Copyright(c) MyLibh. All rights reserved.
 ///====================================================================================================================================
@@ -18,6 +18,7 @@
 ///====================================================================================================================================
 
 #ifdef _UNICODE
+	#define tstring_view    wstring_view
 	#define tstring			wstring
 	#define tfstream		wfstream
 	#define tifstream		wifstream
@@ -28,6 +29,7 @@
 	#define tistream		wistream
 	#define tostream		wostream
 #else
+	#define tstring_view    string_view
 	#define tstring			string
 	#define tfstream		fstream
 	#define tifstream		ifstream
