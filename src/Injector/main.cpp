@@ -54,7 +54,7 @@ signed main(int, char** argv)
 			std::tcout << _T("      -i, --inject              Inject/load referenced module") << std::endl;
 			std::tcout << _T("      -e, --eject               Eject/unload referenced module") << std::endl << std::endl;
 			std::tcout << _T("  modules:") << std::endl;
-			std::tcout << _T("      myLib.dll [anotherLib.dll] [C:\\hooks\\yetAnotherLib.dll]") << std::endl;
+			std::tcout << _T("      myLib.dll [anotherLib.dll] [C:\\dll\\anotherLib2.dll]") << std::endl;
 			std::tcout << std::endl;
 
 			return 0;
@@ -62,7 +62,7 @@ signed main(int, char** argv)
 
 		if (cmd.pos_args().size() <= 1)
 		{
-			std::tcout << _T( "[!] No module name(s) or path(s) specified!") << std::endl;
+			std::tcout << _T("[!] No module name(s) or path(s) specified!") << std::endl;
 
 			return ERROR_INVALID_PARAMETER;
 		}

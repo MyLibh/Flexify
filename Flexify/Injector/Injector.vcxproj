@@ -168,6 +168,7 @@
     <ClCompile Include="..\..\src\Injector\SEH\seh_guard.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\src\Injector\argh.h" />
     <ClInclude Include="..\..\src\Injector\AutoCleanup.hpp" />
     <ClInclude Include="..\..\src\Injector\Injector.hpp" />
     <ClInclude Include="..\..\src\Injector\SEH\SEH.hpp" />
