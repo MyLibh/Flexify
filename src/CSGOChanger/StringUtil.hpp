@@ -6,7 +6,7 @@
 /// Created:			16.07.2019
 ///
 /// Last modified by:	MyLibh
-/// Last modified on:	16.07.2019
+/// Last modified on:	20.07.2019
 ///====================================================================================================================================
 /// Copyright(c) MyLibh. All rights reserved.
 ///====================================================================================================================================
@@ -14,6 +14,8 @@
 #ifndef __STRINGUTIL_HPP_INCLUDED__
 #define __STRINGUTIL_HPP_INCLUDED__
 
+/// [url] https://docs.microsoft.com/ru-ru/windows/win32/apiindex/windows-api-list [/url]
+#include <Windows.h>
 /// [url] http://en.cppreference.com/w/cpp/header/string [/url]
 #include <string>
 /// [url] https://en.cppreference.com/w/cpp/locale/locale [/url]
