@@ -6,9 +6,10 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Injector", "Injector\Injector.vcxproj", "{65187E9D-D73F-4079-B2BF-E66EF3A32654}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{420795EF-A988-4EE2-BD51-E25F5A83F35C}"
-	ProjectSection(SolutionItems) = preProject
-		Start.bat = Start.bat
-	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CSGOChanger", "CSGOChanger\CSGOChanger.vcxproj", "{0F5A31F5-6176-422C-A9DC-F089B77ACE5E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Flexify", "Flexify\Flexify.vcxproj", "{14D1F76C-2786-4F4E-B399-A9989997D5F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +27,22 @@ Global
 		{65187E9D-D73F-4079-B2BF-E66EF3A32654}.Release|x64.Build.0 = Release|x64
 		{65187E9D-D73F-4079-B2BF-E66EF3A32654}.Release|x86.ActiveCfg = Release|Win32
 		{65187E9D-D73F-4079-B2BF-E66EF3A32654}.Release|x86.Build.0 = Release|Win32
+		{0F5A31F5-6176-422C-A9DC-F089B77ACE5E}.Debug|x64.ActiveCfg = Debug|x64
+		{0F5A31F5-6176-422C-A9DC-F089B77ACE5E}.Debug|x64.Build.0 = Debug|x64
+		{0F5A31F5-6176-422C-A9DC-F089B77ACE5E}.Debug|x86.ActiveCfg = Debug|Win32
+		{0F5A31F5-6176-422C-A9DC-F089B77ACE5E}.Debug|x86.Build.0 = Debug|Win32
+		{0F5A31F5-6176-422C-A9DC-F089B77ACE5E}.Release|x64.ActiveCfg = Release|x64
+		{0F5A31F5-6176-422C-A9DC-F089B77ACE5E}.Release|x64.Build.0 = Release|x64
+		{0F5A31F5-6176-422C-A9DC-F089B77ACE5E}.Release|x86.ActiveCfg = Release|Win32
+		{0F5A31F5-6176-422C-A9DC-F089B77ACE5E}.Release|x86.Build.0 = Release|Win32
+		{14D1F76C-2786-4F4E-B399-A9989997D5F0}.Debug|x64.ActiveCfg = Debug|x64
+		{14D1F76C-2786-4F4E-B399-A9989997D5F0}.Debug|x64.Build.0 = Debug|x64
+		{14D1F76C-2786-4F4E-B399-A9989997D5F0}.Debug|x86.ActiveCfg = Debug|Win32
+		{14D1F76C-2786-4F4E-B399-A9989997D5F0}.Debug|x86.Build.0 = Debug|Win32
+		{14D1F76C-2786-4F4E-B399-A9989997D5F0}.Release|x64.ActiveCfg = Release|x64
+		{14D1F76C-2786-4F4E-B399-A9989997D5F0}.Release|x64.Build.0 = Release|x64
+		{14D1F76C-2786-4F4E-B399-A9989997D5F0}.Release|x86.ActiveCfg = Release|Win32
+		{14D1F76C-2786-4F4E-B399-A9989997D5F0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
